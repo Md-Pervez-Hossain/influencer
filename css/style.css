@@ -76,7 +76,7 @@ body {
   background-color: #e02c6d;
   color: white;
   border: none;
-  padding: 20px 30px;
+  padding: 10px 30px;
   border-radius: 50px;
   font-size: 20px;
 }
@@ -142,4 +142,31 @@ body {
   font-weight: 700;
   margin-top: 50px;
   margin-bottom: 50px;
+}
+.see-more {
+  text-align: right;
+  color: #e02c6d;
+  padding: 10px 0;
+}
+.see-more:hover {
+  cursor: pointer;
+}
+.feature-wrapper {
+  display: grid;
+  grid-template-columns: 500px repeat(1, 1fr);
+  align-items: center;
+}
+.feature-info h1 {
+  font-size: 38px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.feature-info p {
+  font-size: 16px;
+  color: #3a3a3a;
+  line-height: 28px;
+}
+.feature {
+  margin: 50px 0;
 }
