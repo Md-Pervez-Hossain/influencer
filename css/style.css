@@ -240,12 +240,7 @@ footer {
     font-size: 40px;
     margin-top: 0;
   }
-  .company {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    align-items: center;
-    justify-content: center;
-  }
+
   .collection-wrapper {
     grid-template-columns: repeat(1, 1fr);
   }
