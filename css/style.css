@@ -4,6 +4,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  color: #3a3a3a;
 }
 .container {
   width: 1240px;
@@ -12,19 +13,19 @@ body {
 .nav-wrapper {
   display: flex;
   justify-content: space-between;
-  padding: 20px 0;
+  padding: 30px 0;
 }
 .nav-logo a {
   font-size: 24px;
   font-weight: 700;
   text-decoration: none !important;
-  color: black;
+  color: #3a3a3a;
 }
 .nav-item a {
   font-size: 16px;
   font-weight: 700;
   text-decoration: none !important;
-  color: black;
+  color: #3a3a3a;
   margin-right: 35px;
   transition: all 0.3s ease;
 }
@@ -46,4 +47,99 @@ body {
 .sign-up:hover {
   color: #e02c6d;
   cursor: pointer;
+}
+.header-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 90px;
+}
+.header-info {
+  width: 50%;
+}
+.header-info h1 {
+  font-size: 55px;
+  color: #3a3a3a;
+  margin-bottom: 0;
+}
+.header-info p {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.header-img {
+  width: 50%;
+}
+.header-img img {
+  width: 100%;
+}
+.btn {
+  background-color: #e02c6d;
+  color: white;
+  border: none;
+  padding: 20px 30px;
+  border-radius: 50px;
+  font-size: 20px;
+}
+.company {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+.company-wrapper {
+  margin: 50px 0;
+}
+.company-wrapper hr {
+  border: 1px solid lightgray;
+}
+.section-heading {
+  text-align: center;
+  font-size: 28px;
+  color: #3a3a3a;
+}
+.collection-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.collection {
+  /* width: 300px; */
+  box-shadow: 1px 1px 30px gray;
+  padding: 30px;
+  border-radius: 10px;
+}
+.collection-img img {
+  width: 100%;
+}
+.collection-info h2 {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+.collection-info h4 {
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.collection-info p {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #787885;
+}
+.fa-star {
+  color: orange;
+}
+.rating {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+.section-Heading {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
