@@ -79,6 +79,13 @@ body {
   padding: 10px 30px;
   border-radius: 50px;
   font-size: 20px;
+  border: 1px solid #e02c6d;
+  transition: all 0.3s ease;
+}
+.btn:hover {
+  background-color: transparent;
+  border: 1px solid #e02c6d;
+  color: #e02c6d;
 }
 .company {
   display: flex;
@@ -169,4 +176,40 @@ body {
 }
 .feature {
   margin: 50px 0;
+}
+footer {
+  background-color: #000;
+  padding: 50px 0;
+  margin-top: 100px;
+}
+.footer-info {
+  text-align: center;
+}
+.footer-info h1 {
+  font-size: 24px;
+  color: white;
+  margin: 10px;
+}
+.footer-info h5 {
+  font-size: 14px;
+  color: white;
+  margin: 10px;
+}
+.footer-info p {
+  font-size: 14px;
+  color: white;
+  margin: 10px;
+}
+.social-icon {
+  color: #e02c6d;
+  font-size: 20px;
+  margin-right: 10px;
+  transition: all 0.3s ease;
+}
+.social-icon:hover {
+  color: white;
+  cursor: pointer;
+}
+.social-icon:last-child {
+  margin-right: 0;
 }
