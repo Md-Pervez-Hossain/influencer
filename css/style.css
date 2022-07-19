@@ -243,10 +243,8 @@ footer {
     margin-top: 0;
   }
   .company-wrapper {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     align-items: center;
-    justify-content: center;
     text-align: center;
   }
   .collection-wrapper {
@@ -264,7 +262,6 @@ footer {
   .feature-info {
     width: 100%;
   }
-
   .footer {
     width: 100%;
   }
