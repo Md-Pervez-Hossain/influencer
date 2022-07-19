@@ -249,9 +249,11 @@ footer {
   }
   .collection-wrapper {
     grid-template-columns: repeat(1, 1fr);
+    padding: 30px;
   }
   .feature-wrapper {
     flex-direction: column;
+    padding: 30px;
   }
   .feature-img {
     width: 100%;
